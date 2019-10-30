@@ -1,0 +1,55 @@
+Original 
+
+First Run
+
+BenchmarkClipboard/CutPaste170-4             7320117           146 ns/op
+BenchmarkClipboard/CopyPaste170-4             917230         40437 ns/op
+BenchmarkClipboard/GetText170-4             459644704            2.79 ns/op
+BenchmarkClipboard/Misspellings170-4         1000000          1289 ns/op
+BenchmarkClipboard/CutPaste1700-4            2222071           545 ns/op
+BenchmarkClipboard/CopyPaste1700-4            581782         25757 ns/op
+BenchmarkClipboard/GetText1700-4            439984704            2.72 ns/op
+BenchmarkClipboard/Misspellings1700-4         111986         11107 ns/op
+PASS
+ok      command-line-arguments  62.174s
+
+Second Run
+
+BenchmarkClipboard/CutPaste170-4             6741512           153 ns/op
+BenchmarkClipboard/CopyPaste170-4             703626         35188 ns/op
+BenchmarkClipboard/GetText170-4             357253759            2.95 ns/op
+BenchmarkClipboard/Misspellings170-4          956264          1441 ns/op
+BenchmarkClipboard/CutPaste1700-4            1842993           702 ns/op
+BenchmarkClipboard/CopyPaste1700-4            529467         26094 ns/op
+BenchmarkClipboard/GetText1700-4            411044174            2.98 ns/op
+BenchmarkClipboard/Misspellings1700-4         113420         11209 ns/op
+PASS
+ok      command-line-arguments  48.968s
+
+Implemented
+
+First Run
+
+BenchmarkClipboard/CutPaste170-4              649432          2321 ns/op
+BenchmarkClipboard/CopyPaste170-4            2327659           554 ns/op
+BenchmarkClipboard/GetText170-4             429503949            2.80 ns/op
+BenchmarkClipboard/Misspellings170-4          980797          1143 ns/op
+BenchmarkClipboard/CutPaste1700-4             120072         10540 ns/op
+BenchmarkClipboard/CopyPaste1700-4           2570433           531 ns/op
+BenchmarkClipboard/GetText1700-4            367982448            3.02 ns/op
+BenchmarkClipboard/Misspellings1700-4         140762          8175 ns/op
+PASS
+ok      command-line-arguments  26.177s
+
+Second Run
+
+BenchmarkClipboard/CutPaste170-4              463612          2258 ns/op
+BenchmarkClipboard/CopyPaste170-4            2645094           557 ns/op
+BenchmarkClipboard/GetText170-4             355202672            3.42 ns/op
+BenchmarkClipboard/Misspellings170-4         1000000          1409 ns/op
+BenchmarkClipboard/CutPaste1700-4             112995         10773 ns/op
+BenchmarkClipboard/CopyPaste1700-4           2605939           568 ns/op
+BenchmarkClipboard/GetText1700-4            391298464            2.94 ns/op
+BenchmarkClipboard/Misspellings1700-4         138892          8211 ns/op
+PASS
+ok      command-line-arguments  27.661s
