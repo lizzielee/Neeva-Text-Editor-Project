@@ -17,8 +17,8 @@ Using a simple string to store the document is intuitive but low in efficiency. 
 
 >A rope is a binary tree where each leaf (end node) holds a string and a length (also known as a "weight"), and each node further up the tree holds the sum of the lengths of all the leaves in its left subtree. A node with two children thus divides the whole string into two parts: the left subtree stores the first part of the string, the right subtree stores the second part of the string, and node's weight is the sum of the left child's weight along with all of the nodes contained in its subtree. 
 
-Since a rope is actually a binary tree, now the time complexity for searching is reduced to O(logn), and manipulating becomes faster because there will be no more type conversion in cut or paste operation.  This drastically decreases the average running time for operation **CutPaste** and **CopyPaste**.
-The tradeoff of using a rope to store the document is that when we call function **GetText()**, type conversion is required, and thus increases the running time for this function.  
+Since a rope is actually a binary tree, now the time complexity for searching is reduced to O(logn), and manipulating becomes faster because there will be no more type conversion in cut or paste operation.  This drastically decreases the average running time for operation **CutPaste** and **CopyPaste**.  
+The price of using a rope to store the document is that when we want to get the text as **string**, type conversion is required, and thus increases the running time for function **GetText()**. To give this function a better performance, another string is used to store the text, only being called in **GetText()**, and everytime the document is changed(either cut or paste operation is done), this string will get updated. The tradeoff is increasing the running time of **Cut()** and **Paste()** since now they have to perform type conversion.
 
 ### Data Structure for Dictionary  
 
