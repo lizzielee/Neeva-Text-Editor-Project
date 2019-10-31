@@ -46,4 +46,4 @@ Materials from the Internet suggest that a widely used data structure in real te
 
 ----
 ## Test Results Comparison
-See the results [here](https://github.com/lizzielee/Neeva-Text-Editor-Project/blob/master/TestResults.txt)
+See the results in the txt file [here](https://github.com/lizzielee/Neeva-Text-Editor-Project/blob/master/TestResults.txt)
